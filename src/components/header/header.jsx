@@ -1,5 +1,6 @@
 import React, { isValidElement } from 'react'
 import {Link, NavLink} from 'react-router-dom'
+
  function Header() {
     return (
         <header className="shadow sticky z-50 top-0">
@@ -59,6 +60,16 @@ import {Link, NavLink} from 'react-router-dom'
                                     }
                                 >
                                     Contact
+                                </NavLink>
+                            </li>
+                            <li>
+                                <NavLink
+                                to='/Github'
+                                    className={() =>
+                                        `block py-2 pr-4 pl-3 duration-200 ${isValidElement?"text-orange-700":"text-gray-700"}border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                    }
+                                >
+                                    Github
                                 </NavLink>
                             </li>
                             
