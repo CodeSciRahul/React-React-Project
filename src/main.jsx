@@ -8,7 +8,7 @@ import Layout from './layout.jsx'
 import About from './components/About/About.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import User from './components/User/User.jsx'
-import Github, { githubinfoloader } from './components/Github/Github.jsx'
+import Github, { githubinfoloader } from'./components/Github/Github.jsx'
  
 //here there is two methord to use import all componenets in the main.jsx both method are mention below.
 
